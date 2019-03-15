@@ -1,0 +1,22 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "no-console": false,
+    "no-debugger": false,
+    "member-order": false, // 类声明排序
+    "ordered-imports": false, // import引入时需要按首字母排序
+    "object-literal-sort-keys": false, // 键名按首字母排序
+    "no-var-keyword": true, // 禁止使用var 
+    "prefer-for-of": false, // 关闭强制使用for-of
+    "prefer-const": false, // 关闭强制使用const
+    "no-empty-interface": false, // 可以申明空接口
+    "jsx-no-lambda": false // 覆盖禁止使用lambda表达式
+  }
+}

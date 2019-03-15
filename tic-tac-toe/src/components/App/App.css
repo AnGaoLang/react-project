@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+ol {
+  list-style: none
+}
+a {
+  color: white;
+}
+.reverse{
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 20px;
+  cursor: pointer;
+  background: #999;
+  outline: none;
+  border: 2px solid #999;
+  border-radius: 5px;
+}
+
+.selected {
+  color: red;
+}
+
+.tic {
+  margin: 10px auto;
+  width: 155px;
+  height: 155px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
